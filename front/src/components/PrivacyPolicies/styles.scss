@@ -1,0 +1,13 @@
+.privacy-policies article {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 768px) {
+    .privacy-policies article {
+        padding: 0 1rem;
+    }
+}
